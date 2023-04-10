@@ -17,5 +17,7 @@ private:
 	string kode;
 	string namamk;
 public:
-
+	void inputmk() {
+		
+	}
 };
