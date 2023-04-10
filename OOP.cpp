@@ -6,7 +6,7 @@ public:
 	int nim;
 	string nama;
 	void tampil() {
-		cout << "nim = " << nim;
+		cout << "nim = " << nim<<endl;
 		cout << "nama = " << nama;
 	}
 };
@@ -26,9 +26,9 @@ public:
 		cin >> namamk;
 	}
 
-	void tampil() {
-		cout << "\njumlah sks = " << sks;
-		cout << "\nkode mk = " << kode;
+	void tampilmk() {
+		cout << "\njumlah sks = " << sks<<endl;
+		cout << "\nkode mk = " << kode<<endl;
 		cout << "\nnama mk = " << namamk << endl;
 	}
 };
@@ -44,5 +44,6 @@ int main() {
 
 	mhs.tampil();
 	mk.inputmk();
-	mk.tampil();
+	mk.tampilmk();
+
 }
