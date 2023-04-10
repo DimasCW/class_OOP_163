@@ -10,3 +10,7 @@ public:
 		cout << "nama = " << nama;
 	}
 };
+
+class matakuliah {
+
+};
