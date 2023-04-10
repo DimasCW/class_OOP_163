@@ -29,7 +29,20 @@ public:
 	void tampil() {
 		cout << "\njumlah sks = " << sks;
 		cout << "\nkode mk = " << kode;
-		cout << "\nnama mk = " << namamk<<endl;
-
+		cout << "\nnama mk = " << namamk << endl;
 	}
 };
+
+int main() {
+	mahasiswa mhs;
+	matakuliah mk;
+
+	cout << "masukkan nim = ";
+	cin >> mhs.nim;
+	cout << "masukkan nama = ";
+	cin >> mhs.nama;
+
+	mhs.tampil();
+	mk.inputmk();
+	mk.tampil();
+}
